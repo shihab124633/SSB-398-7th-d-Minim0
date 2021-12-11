@@ -1,0 +1,84 @@
+/*common start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header{
+    padding: 20px 0;
+    border-bottom: 1px solid #c4c4c4b0;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /*border:  1px solid red;*/
+    overflow: hidden;
+}
+.logo{
+    margin-top: 13px;
+    width: 13%;
+    /*border: 1px solid blue;*/
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.manu{
+    width: 60%;
+    /*border: 1px solid blue;*/
+    float: right;
+}
+.manu ul{
+    float: right;
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+}
+.manu ul li a{
+    margin: 0 45px;
+    padding: 2px 3px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+    text-transform:  uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .15s ;    
+}
+.manu ul li:last-child a{
+    margin-right: 0;
+}
+.manu ul li a:hover {
+    border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+
+
+
+@font-face{
+    font-family: Lato-Black;
+    src: url(../font/lato/Lato-Black.ttf);
+
+}
+
+@font-face{
+    font-family: Lato-Light;
+    src: url(../font/lato/Lato-Light.ttf);
+
+}
+h1{
+    font-family: Lato-Black;
+    font-weight: 900; 
+}
+
+h2{
+    font-family: Lato-Light;
+    font-weight: 300;
+}
